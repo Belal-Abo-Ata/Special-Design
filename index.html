@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE" ="edge" />
+    <meta
+      name="viewport"
+      content="width"
+      ="device-width,"
+      initial-scale="1.0"
+    />
+    <title>Special Design</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <!-- Start Scroll Top Arrow -->
+    <i class="fa-solid fa-angles-up arrow-top"></i>
+    <!-- Start Sections Bullets -->
+    <ul class="sections-bullets">
+      <a href="#about"> <li data-info="About Us"></li></a>
+      <a href="#skills"><li data-info="Our Skills"></li></a>
+      <a href="#gallery"> <li data-info="Our Gallery"></li></a>
+      <a href="#timeline"> <li data-info="Timeline"></li></a>
+      <a href="#features"> <li data-info="Features"></li> </a>
+      <a href="#testimonials"> <li data-info="Testimonials"></li></a>
+    </ul>
+    <!-- End Sections Bullets -->
+    <!-- Start Landing Page -->
+
+    <div class="settings-overlay overlay-hidden"></div>
+    <div class="landing-page">
+      <header>
+        <div class="container">
+          <div class="logo">Special Page</div>
+          <ul class="links hidden">
+            <li><a href="#about"> About </a></li>
+            <li><a href="#skills"> Skills </a></li>
+            <li><a href="#gallery"> Gallery </a></li>
+            <li><a href="#timeline"> Timeline</a></li>
+            <li><a href="#features"> Features</a></li>
+            <li><a href="#testimonials"> Testimonials</a></li>
+          </ul>
+          <i class="fa-sharp fa-solid fa-bars icon"></i>
+        </div>
+      </header>
+      <div class="introduction">
+        <h1>We Are a <span> Creative </span> Agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid fuga
+          amet excepturi voluptatibus facilis, itaque praesentium pariatur magni
+          quas cupiditate
+        </p>
+      </div>
+      <div class="background-images">
+        <img src="./images/01.jpg" alt="" />
+        <img src="./images/02.jpg" alt="" />
+        <img src="./images/03.jpg" alt="" />
+        <img src="./images/04.jpg" alt="" />
+        <img src="./images/05.jpg" alt="" />
+      </div>
+      <ul class="images-control">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+      <div class="settings hidden">
+        <div class="colors">
+          <p>Colors</p>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="random-backgrounds">
+          <p>Random Backgrounds</p>
+          <div class="btns">
+            <button>Yes</button>
+            <button class="active" value="true">No</button>
+          </div>
+        </div>
+        <div class="show-bullets">
+          <p>Show Bullets</p>
+          <div class="btns">
+            <button class="active" value="true">Yes</button>
+            <button>No</button>
+          </div>
+        </div>
+        <div class="show-arrow">
+          <p>Show Scroll Arrow</p>
+          <div class="btns">
+            <button class="active" value="true">Yes</button>
+            <button>No</button>
+          </div>
+        </div>
+        <button class="rest">Reset Options</button>
+        <div class="settings-button">
+          <i class="fa fa-gear"></i>
+        </div>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start About -->
+    <div class="container">
+      <div class="about" id="about">
+        <div class="info">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            ipsum, tenetur dolores esse magni ratione distinctio! Quod iusto
+            neque fuga, maxime quos nostrum quibusdam dicta deserunt blanditiis
+            non voluptate id?
+          </p>
+        </div>
+        <img src="./images/about-us.jpg" alt="About Us Image" />
+      </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Our Skills -->
+    <div class="our-skills" id="skills">
+      <div class="container">
+        <h2 class="h2-component">Our Skills</h2>
+        <div class="skill-statistics">
+          <div class="statistic">
+            <p>HTML</p>
+            <div class="progress">
+              <span data-progress="80%"></span>
+            </div>
+          </div>
+          <div class="statistic">
+            <p>CSS</p>
+            <div class="progress">
+              <span data-progress="95%"></span>
+            </div>
+          </div>
+          <div class="statistic">
+            <p>JavaScript</p>
+            <div class="progress">
+              <span data-progress="98%"></span>
+            </div>
+          </div>
+          <div class="statistic">
+            <p>Python</p>
+            <div class="progress">
+              <span data-progress="90%"></span>
+            </div>
+          </div>
+          <div class="statistic">
+            <p>PHP</p>
+            <div class="progress">
+              <span data-progress="90%"></span>
+            </div>
+          </div>
+          <div class="statistic">
+            <p>MySQL</p>
+            <div class="progress">
+              <span data-progress="100%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Skills -->
+    <!-- Start Our Gallery -->
+    <div class="our-gallery" id="gallery">
+      <div class="container">
+        <h2 class="h2-component">Our Gallery</h2>
+        <div class="images">
+          <div class="image">
+            <img src="./images/01.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/02.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/03.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/04.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/05.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/06.png" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/07.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/08.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/09.jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/10.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="image-display hidden">
+        <button class="close">
+          <i class="fa-solid fa-square-xmark"></i>
+        </button>
+      </div>
+      <div class="image-display-overlay hidden"></div>
+    </div>
+    <!-- End Our Gallery -->
+    <!-- Start Timeline -->
+    <div class="timeline" id="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year-progress">
+            <p>2018</p>
+            <p>2016</p>
+            <ul class="bullets">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="timeline-p b-right">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+              nobis quam?
+            </p>
+          </div>
+          <div class="timeline-p b-left">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+              nobis quam?
+            </p>
+          </div>
+          <div class="timeline-p b-right">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+              nobis quam?
+            </p>
+          </div>
+          <div class="timeline-p b-right">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+              nobis quam?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Start Our Features -->
+    <div class="our-features" id="features">
+      <h2 class="h2-component">Our Features</h2>
+      <div class="container">
+        <div class="feature">
+          <img src="./images/programming.svg" alt="" />
+          <h4>Development</h4>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="./images/advertising.svg" alt="" />
+          <h4>Marketing</h4>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="./images/hosting-icon.svg" alt="" />
+          <h4>Hosting</h4>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="./images/mobile-app.svg" alt="" />
+          <h4>Mobile Develope</h4>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="./images/graphic-design.svg" alt="" />
+          <h4>Cloud and Servers</h4>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="./images/web-design.svg" alt="" />
+          <h4>Seo</h4>
+          <p>
+            We are professional marketeers, we will do anything you imagine in
+            no time.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Features -->
+    <!-- Start Testimonials -->
+    <div class="testimonials" id="testimonials">
+      <div class="container">
+        <h2 class="h2-component">Testimonials</h2>
+        <div class="ts-content">
+          <div class="ts-box">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="title">
+              <h4>Ahmed Mosaad</h4>
+              <p>CEO At Company</p>
+            </div>
+          </div>
+          <div class="ts-box">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="title">
+              <h4>Ahmed Mosaad</h4>
+              <p>CEO At Company</p>
+            </div>
+          </div>
+          <div class="ts-box">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="title">
+              <h4>Ahmed Mosaad</h4>
+              <p>CEO At Company</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonials -->
+    <div class="contact-us">
+      <h2 class="h2-component">Contact Us</h2>
+      <div class="container">
+        <form action="#" class="contact-form">
+          <div class="left">
+            <input type="text" placeholder="Your Name" />
+            <input type="text" placeholder="Your Phone" />
+            <input type="email" placeholder="Your Email" />
+            <input type="text" placeholder="Subject" />
+          </div>
+          <div class="right">
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        Made With ❤️ By Belal Mohamed
+        <a href="https://twitter.com/Belal_Mohamed19" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
